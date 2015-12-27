@@ -14,10 +14,11 @@ class PiwigoInstaller extends BaseInstaller
     protected $locations = array(
         'library' => 'include/{$name}/',
         'plugin' => 'plugins/{$name}/',
+        'theme' => 'themes/{$name}/',
     );
 
     /**
-     * Format package name to lowercase
+     * Format the package name to lowercase if it's a library
      * @param array $vars
      *
      * @return array
