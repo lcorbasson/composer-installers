@@ -25,7 +25,7 @@ class PiwigoInstaller extends BaseInstaller
      */
     public function inflectPackageVars($vars)
     {
-	if ($vars['type'] === 'library') {
+	if ($vars['type'] === 'piwigo-library') {
 	        $vars['name'] = strtolower($vars['name']);
 	}
 
