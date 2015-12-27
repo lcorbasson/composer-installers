@@ -33,15 +33,15 @@ is not needed to install packages with these frameworks:
 
 | Framework    | Types
 | ---------    | -----
-| Aimeos       | `aimeos-extension`
-| Asgard       | `asgard-module`<br>`asgard-theme`
 | AGL          | `agl-module`
-| Bonefish     | `bonefish-package`
+| Aimeos       | `aimeos-extension`
 | AnnotateCms  | `annotatecms-module`<br>`annotatecms-component`<br>`annotatecms-service`
+| Asgard       | `asgard-module`<br>`asgard-theme`
 | Bitrix       | `bitrix-module`<br>`bitrix-component`<br>`bitrix-theme`
+| Bonefish     | `bonefish-package`
 | CakePHP 2+   | **`cakephp-plugin`**
-| Chef         | `chef-cookbook`<br>`chef-role`
 | CCFramework  | `ccframework-ship`<br>`ccframework-theme`
+| Chef         | `chef-cookbook`<br>`chef-role`
 | CodeIgniter  | `codeigniter-library`<br>`codeigniter-third-party`<br>`codeigniter-module`
 | concrete5    | `concrete5-block`<br>`concrete5-package`<br>`concrete5-theme`<br>`concrete5-update`
 | Craft        | `craft-plugin`
@@ -62,17 +62,18 @@ is not needed to install packages with these frameworks:
 | Lithium      | **`lithium-library`<br>`lithium-source`**
 | Magento      | `magento-library`<br>`magento-skin`<br>`magento-theme`
 | Mako         | `mako-package`
-| MODX Evo     | `modxevo-snippet`<br>`modxevo-plugin`<br>`modxevo-module`<br>`modxevo-template`<br>`modxevo-lib`
 | MediaWiki    | `mediawiki-extension`
+| MODULEWork   | `modulework-module`
+| MODX Evo     | `modxevo-snippet`<br>`modxevo-plugin`<br>`modxevo-module`<br>`modxevo-template`<br>`modxevo-lib`
+| Moodle       | `moodle-*` (Please [check source](https://raw.githubusercontent.com/composer/installers/master/src/Composer/Installers/MoodleInstaller.php) for all supported types)
 | October      | **`october-module`<br>`october-plugin`<br>`october-theme`**
 | OXID         | `oxid-module`<br>`oxid-theme`<br>`oxid-out`
-| MODULEWork   | `modulework-module`
-| Moodle       | `moodle-*` (Please [check source](https://raw.githubusercontent.com/composer/installers/master/src/Composer/Installers/MoodleInstaller.php) for all supported types)
-| Piwigo       | `piwigo-library`<br>`piwigo-plugin`
-| Piwik        | `piwik-plugin`
 | phpBB        | `phpbb-extension`<br>`phpbb-style`<br>`phpbb-language`
 | Pimcore      | `pimcore-plugin`
+| Piwigo       | `piwigo-library`<br>`piwigo-plugin`
+| Piwik        | `piwik-plugin`
 | PPI          | **`ppi-module`**
+| Prestashop   | `prestashop-module`<br>`prestashop-theme`
 | Puppet       | `puppet-module`
 | REDAXO       | `redaxo-addon`
 | Roundcube    | `roundcube-plugin`
@@ -81,13 +82,12 @@ is not needed to install packages with these frameworks:
 | SMF          | `smf-module`<br>`smf-theme`
 | symfony1     | **`symfony1-plugin`**
 | Tusk         | `tusk-task`<br>`tusk-command`<br>`tusk-asset`
-| TYPO3 Flow   | `typo3-flow-package`<br>`typo3-flow-framework`<br>`typo3-flow-plugin`<br>`typo3-flow-site`<br>`typo3-flow-boilerplate`<br>`typo3-flow-build`
 | TYPO3 CMS    | `typo3-cms-extension`
+| TYPO3 Flow   | `typo3-flow-package`<br>`typo3-flow-framework`<br>`typo3-flow-plugin`<br>`typo3-flow-site`<br>`typo3-flow-boilerplate`<br>`typo3-flow-build`
 | Wolf CMS     | `wolfcms-plugin`
 | WordPress    | <b>`wordpress-plugin`<br>`wordpress-theme`</b><br>`wordpress-muplugin`
 | Zend         | `zend-library`<br>`zend-extra`<br>`zend-module`
 | Zikula       | `zikula-module`<br>`zikula-theme`
-| Prestashop   | `prestashop-module`<br>`prestashop-theme`
 
 ## Example `composer.json` File
 
